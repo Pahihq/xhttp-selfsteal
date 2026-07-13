@@ -1,0 +1,17 @@
+{
+  "name": "nodewatch-console",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "check": "node --check app.js && node --check server.js"
+  },
+  "appPort": "4173",
+  "demoName": "Алексей Воронцов",
+  "dependencies": {
+    "better-sqlite3": "^12.11.1",
+    "express": "^5.2.1"
+  },
+  "demoEmail": "demo@nodewatch.io",
+  "demoPassword": "nodewatch"
+}

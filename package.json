@@ -1,0 +1,21 @@
+{
+  "name": "service-projects",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "check": "npm --prefix nodewatch-console run check && npm --prefix fastletter run check && npm --prefix north-language run check && npm --prefix deskroom run check && npm --prefix green-index run check && npm --prefix clearbook run check && npm --prefix city-frame run check && npm --prefix form-school run check && npm --prefix rentbase run check",
+    "dev:nodewatch": "npm --prefix nodewatch-console run dev",
+    "dev:fastletter": "npm --prefix fastletter run dev",
+    "dev:north-language": "npm --prefix north-language run dev",
+    "dev:deskroom": "npm --prefix deskroom run dev",
+    "dev:green-index": "npm --prefix green-index run dev",
+    "dev:clearbook": "npm --prefix clearbook run dev",
+    "dev:city-frame": "npm --prefix city-frame run dev",
+    "dev:form-school": "npm --prefix form-school run dev",
+    "dev:rentbase": "npm --prefix rentbase run dev"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.11.1",
+    "express": "^5.2.1"
+  }
+}
