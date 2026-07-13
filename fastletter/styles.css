@@ -7,3 +7,4 @@
 .feature .btn{color:var(--ink)}
 /* FASTLETTER — sharp dispatch console */
 :root{--radius:3px;--bg:#f3f1eb;--dark:#171815}.panel,.stat,.item-card,.form-card,.feature{border-radius:3px}.sidebar{width:260px}.shell{grid-template-columns:260px 1fr}.main{background-image:linear-gradient(#e6e3da 1px,transparent 1px);background-size:100% 80px}.page-head h1{text-transform:uppercase;font-weight:700;letter-spacing:-.06em}.glyph,.logo,.input,.btn,.icon-btn{border-radius:2px}.feature:after{border-radius:0;transform:rotate(25deg)}
+@media(min-width:901px){.content{padding-top:38px}.page-head{border-left:6px solid var(--accent);padding-left:20px}.stats{grid-template-columns:1.2fr .8fr .8fr 1.2fr;gap:0;border:1px solid #b9bbb5}.stat{border:0;border-right:1px solid #d3d5cf}.stat:last-child{border-right:0}.grid{grid-template-columns:minmax(0,2fr) 310px}.panel-head{background:#eceae4}.list-row{grid-template-columns:46px 1fr auto}.feature{min-height:310px}}
