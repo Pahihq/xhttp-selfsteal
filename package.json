@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "check": "npm --prefix nodewatch-console run check && npm --prefix fastletter run check && npm --prefix north-language run check && npm --prefix deskroom run check && npm --prefix green-index run check && npm --prefix clearbook run check && npm --prefix city-frame run check && npm --prefix form-school run check && npm --prefix rentbase run check",
+    "check": "npm --prefix nodewatch-console run check && npm --prefix fastletter run check && npm --prefix north-language run check && npm --prefix deskroom run check && npm --prefix green-index run check && npm --prefix clearbook run check && npm --prefix city-frame run check && npm --prefix form-school run check && npm --prefix rentbase run check && npm --prefix safebox run check && npm --prefix pawline run check && npm --prefix veloforge run check && npm --prefix sidequest run check && npm --prefix wattboard run check",
     "dev:nodewatch": "npm --prefix nodewatch-console run dev",
     "dev:fastletter": "npm --prefix fastletter run dev",
     "dev:north-language": "npm --prefix north-language run dev",
@@ -12,7 +12,12 @@
     "dev:clearbook": "npm --prefix clearbook run dev",
     "dev:city-frame": "npm --prefix city-frame run dev",
     "dev:form-school": "npm --prefix form-school run dev",
-    "dev:rentbase": "npm --prefix rentbase run dev"
+    "dev:rentbase": "npm --prefix rentbase run dev",
+    "dev:safebox": "npm --prefix safebox run dev",
+    "dev:pawline": "npm --prefix pawline run dev",
+    "dev:veloforge": "npm --prefix veloforge run dev",
+    "dev:sidequest": "npm --prefix sidequest run dev",
+    "dev:wattboard": "npm --prefix wattboard run dev"
   },
   "dependencies": {
     "better-sqlite3": "^12.11.1",

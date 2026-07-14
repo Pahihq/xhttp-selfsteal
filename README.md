@@ -1,6 +1,6 @@
 # Service Projects
 
-Монорепозиторий с девятью самостоятельными сервисами и личными кабинетами. У каждого проекта собственный Node.js backend, SQLite-база пользователей и cookie-сессии.
+Монорепозиторий с четырнадцатью самостоятельными сервисами и личными кабинетами. У каждого проекта собственный Node.js backend, SQLite-база пользователей и cookie-сессии.
 
 ## Проекты
 
@@ -15,6 +15,11 @@
 | `city-frame` | Архив городской фотографии | 4208 |
 | `form-school` | Курсы по дизайну | 4209 |
 | `rentbase` | Аренда техники | 4210 |
+| `safebox` | Городское хранение вещей | 4211 |
+| `pawline` | Ветеринарная клиника | 4212 |
+| `veloforge` | Велосипедная мастерская | 4213 |
+| `sidequest` | Платформа локальных событий | 4214 |
+| `wattboard` | Домашний энергомониторинг | 4215 |
 
 ## Скриншоты
 
@@ -54,6 +59,26 @@
 
 ![Кабинет аренды RENTBASE](docs/screenshots/rentbase.png)
 
+### SAFEBOX
+
+![Кабинет хранения SAFEBOX](docs/screenshots/safebox.png)
+
+### PAWLINE
+
+![Ветеринарная карта PAWLINE](docs/screenshots/pawline.png)
+
+### VELOFORGE
+
+![Заказ-наряд VELOFORGE](docs/screenshots/veloforge.png)
+
+### SIDEQUEST
+
+![Городская афиша SIDEQUEST](docs/screenshots/sidequest.png)
+
+### WATTBOARD
+
+![Энергомониторинг WATTBOARD](docs/screenshots/wattboard.png)
+
 ## Запуск
 
 Из корня репозитория:
@@ -69,7 +94,7 @@ cd fastletter
 npm run dev
 ```
 
-Демо-вход для проектов 3–10: `demo@service.ru` / `demo123`.
+Демо-вход для проектов FASTLETTER–WATTBOARD: `demo@service.ru` / `demo123`.
 
 Демо-вход NODEWATCH: `demo@nodewatch.io` / `nodewatch`.
 
